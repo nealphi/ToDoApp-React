@@ -21,7 +21,7 @@ const AddTaskForm = ({ addTask }) => {
         <input
           onChange={handleChange}
           type="text"
-          placeholder="What needs to be done"
+          placeholder="What needs to be done..."
         ></input>
         <button type="submit">Add Task</button>
       </form>

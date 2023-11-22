@@ -10,7 +10,6 @@
 .AddTaskForm input {
   width: 100%;
   height: 50px;
-  font-size: 15px;
   padding: 5px 10px;
   border: 1px solid #eee;
   border-radius: 0;
@@ -25,7 +24,6 @@
 .AddTaskForm button {
   width: 30%;
   height: 50px;
-  font-size: 15px;
   padding: 5px 10px;
   border: 1px solid #eee;
   background-color: #eee;
