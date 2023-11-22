@@ -1,0 +1,47 @@
+.TaskItem {
+  width: 100%;
+  display: flex;
+  padding: 20px 10px;
+  align-items: center;
+  border-bottom: 2px solid #f5f5f5;
+}
+.TaskItem.active {
+  background-color: rgb(159, 179, 128);
+}
+
+.TaskItem input {
+  width: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.TaskItem h2 {
+  width: 100%;
+}
+
+.TaskItem button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  background-color: white;
+  border: none;
+  align-items: center;
+  font-size: inherit;
+}
+
+.TaskItem button:hover {
+  color: #38ada9;
+    cursor: pointer;
+}
+
+.TaskItem input:checked {
+    background-color: #38ada9;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0;
+    padding: initial;
+    border: initial;
+}
+
+

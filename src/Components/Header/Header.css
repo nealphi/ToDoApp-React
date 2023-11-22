@@ -1,0 +1,12 @@
+.Header {
+    text-align: center;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header h1 {
+    font-family: 'Poiret One', sans-serif;
+    color: #38ada9;
+}

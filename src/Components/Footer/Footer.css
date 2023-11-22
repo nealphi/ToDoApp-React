@@ -1,0 +1,8 @@
+.Footer {
+  text-align: center;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poiret One", sans-serif;
+}
